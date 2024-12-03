@@ -65,7 +65,7 @@
                 <tfoot>
                 <tr>
                     <th colspan="5">Total</th>
-                    <th class="text-end">{{ number_format($transaksi->$transaksidetail->sum('subtotal'), 0, '.', '.') }}</th>
+                    <th class="text-end">{{ number_format($transaksi->transaksidetail->sum('subtotal'), 0, '.', '.') }}</th>
                     <th></th>
                 </tr>
                 </tfoot>
